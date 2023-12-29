@@ -1,6 +1,7 @@
 
 export default function Card(props) {
- const {title, location, imgUrl, googleMapsLink, startDate, endDate, description}= (props.item)
+ const {title, location, imgUrl, googleMapsLink, startDate, endDate, description}= (props.item);
+ const isLast = props.isLast;
   return (
     <div>
       <div className="card-container">
@@ -18,7 +19,7 @@ export default function Card(props) {
           <p className="card-text">{description}</p>
         </div>
       </div>
-      <div className="hr"></div>
+      {!isLast && <div className="hr"></div>}
     </div>
   )
 }

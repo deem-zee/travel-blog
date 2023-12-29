@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: 'Mount Fuji',
     location: 'JAPAN',
     imgUrl: 'https://source.unsplash.com/WLxQvbMyfas',
@@ -11,6 +12,7 @@ export default [
   },
 
   {
+    id:2,
     title: 'Sydney Opera House',
     location: 'AUSTRALIA',
     imgUrl: 'https://source.unsplash.com/JmuyB_LibRo',
@@ -21,6 +23,7 @@ export default [
   },
 
   {
+    id: 3,
     title: 'Geirangerfjord',
     location: 'NORWAY',
     imgUrl: 'https://source.unsplash.com/3PeSjpLVtLg',

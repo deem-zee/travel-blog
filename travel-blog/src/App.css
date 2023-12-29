@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+
+
 .header {
   background: #F55A5A;
   display: flex;
@@ -118,5 +120,6 @@ main {
 .hr {
   width: 478px;
   height: 1px;
-  background: #F5F5F5
+  background: #F5F5F5;
 }
+

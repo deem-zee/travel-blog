@@ -1,16 +1,21 @@
 import './App.css';
 import Header from './Header';
 import data from './data';
-import Card from './Card'
+import Card from './Card';
+
+
 
 function App() {
-  const cards = data.map((place) => {
+  const cards = data.map((place, index) => {
     return(
-      <Card
-        item = {place} 
-      />
+        <Card
+          key = {index}
+          item = {place}
+          isLast = {index + 1  === data.length}
+        />
     )
   })
+
 
   return (
     <div className="App">
